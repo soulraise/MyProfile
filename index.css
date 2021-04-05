@@ -163,4 +163,15 @@ button{
     }
 .like a{
     text-decoration: none;
+    color: #828282;
+}
+h3 a{
+    color: #070707;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration-line: underline;
 }
