@@ -1,0 +1,151 @@
+.item{
+    display: inline-block;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 33px 20px;
+
+   
+}
+header a{
+    color: #828282;
+}
+.header{
+    margin: 0 auto;
+    text-align: center;
+}
+.divHeader{
+    margin: 0 auto;
+    border-bottom: 2px solid #828282;
+}
+.conteiner{
+    width: 940px;
+    margin: 0 auto;
+}
+h1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    color: #070707;
+}
+#about{
+    text-align: center;
+    background-color: #F6F6F6;
+    padding: 100px 0;
+    margin: 100px 0;
+}
+h2{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+}
+#about p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+#skills{
+    text-align: center;
+}
+
+#skills p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #070707;
+}
+.skills{
+    margin: 0 auto;
+    text-align: center; 
+}
+.itemSkills{
+    display: inline-block;
+    margin: 85px 28px;
+}
+.star{
+    margin: 30px 4px;
+}
+#portfolio{
+    background-color: #F6F6F6;
+}
+#portfolio h2{
+    padding: 90px 0 70px;
+}
+#portfolio h3{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+    padding: 15px 0 128px;
+}
+button{
+    background-color: #070707;
+    color: white;
+    width: 180px;
+    height: 42px;
+    border-radius: 20px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+ 
+}
+#contact p {
+    margin: 21px 0 78px;
+}
+#contact div{
+    margin: 37px 0 43px;
+}
+#contact{
+    text-align: center; 
+}
+#contact li{
+    display: inline-block;
+}
+#contact li{
+    margin: 0 20px;
+}
+.like{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #828282;
+    margin: 0 0 234px;
+}
+#toTop {
+    width:100px;
+    border:1px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:5px;
+    position:fixed;
+    bottom:10px; /* отступ кнопки от нижнего края страницы*/
+    right:10px;
+    cursor:pointer;
+    display:none;
+    color:#333;
+    font-family:verdana;
+    font-size:16px;
+    font-weight: bold;
+
+    }
