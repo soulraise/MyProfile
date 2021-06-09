@@ -1,177 +1,181 @@
-
-.item{
-    display: inline-block;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
-    padding: 33px 20px;
+.item {
+	display: inline-block;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	padding: 33px 20px;
 }
-.itemA{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
-    color: #828282;
-    text-decoration: none;
+.itemA {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	color: #828282;
+	text-decoration: none;
 }
-.itemActive{
-    color: #070707;
-    
+.itemActive {
+	color: #070707;
+	font-weight: bold;
 }
-header a{
-    color: #828282;
+.header-wrap {
+	position: sticky;
+	top: 0;
+	background-color: #fff;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
-.header{
-    margin: 0 auto;
-    text-align: center;
+header a {
+	color: #828282;
 }
-.divHeader{
-    margin: 0 auto;
-    border-bottom: 2px solid #828282;
+.header {
+	margin: 0 auto;
+	text-align: center;
 }
-.conteiner{
-    width: 940px;
-    margin: 0 auto;
+.divHeader {
+	margin: 0 auto;
+	/* border-bottom: 2px solid #828282; */
 }
-h1{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    color: #070707;
+.conteiner {
+	width: 940px;
+	margin: 0 auto;
 }
-#about{
-    text-align: center;
-    background-color: #F6F6F6;
-    padding: 100px 0;
-    margin: 100px 0;
+h1 {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	color: #070707;
 }
-h2{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 34px;
-    line-height: 46px;
-    text-align: center;
+#about {
+	text-align: center;
+	background-color: #f6f6f6;
+	padding: 100px 0;
 }
-#about p{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
+h2 {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 46px;
+	text-align: center;
 }
-#skills{
-    text-align: center;
+#about p {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+}
+#skills {
+	text-align: center;
+	padding: 100px 0 0 0;
 }
 
 #skills p {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    color: #070707;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	color: #070707;
 }
-.skills{
-    margin: 0 auto;
-    text-align: center; 
+.skills {
+	margin: 0 auto;
+	text-align: center;
 }
-.itemSkills{
-    display: inline-block;
-    margin: 85px 28px;
+.itemSkills {
+	display: inline-block;
+	margin: 85px 28px;
 }
-.star{
-    margin: 30px 4px;
+.star {
+	margin: 30px 4px;
 }
-#portfolio{
-    background-color: #F6F6F6;
+#portfolio {
+	background-color: #f6f6f6;
+	padding: 100px 0;
 }
-#portfolio h2{
-    padding: 90px 0 70px;
+#portfolio h2 {
+	padding: 0 0 70px;
 }
-#portfolio h3{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    text-decoration-line: underline;
-    color: #070707;
-    padding: 15px 0 128px;
+#portfolio h3 {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	text-decoration-line: underline;
+	color: #070707;
+	padding: 15px 0 128px;
 }
-button{
-    background-color: #070707;
-    color: white;
-    width: 180px;
-    height: 42px;
-    border-radius: 20px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    letter-spacing: 0.1em;
- 
+.button {
+	background-color: #070707;
+	color: white;
+	width: 180px;
+	height: 42px;
+	border-radius: 20px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	letter-spacing: 0.1em;
 }
 #contacts p {
-    margin: 21px 0 78px;
+	margin: 21px 0 78px;
 }
-#contacts div{
-    margin: 37px 0 43px;
+#contacts div {
+	margin: 37px 0 43px;
 }
-#contacts{
-    text-align: center; 
+#contacts {
+	text-align: center;
 }
-#contacts li{
-    display: inline-block;
+#contacts li {
+	display: inline-block;
 }
-#contacts li{
-    margin: 0 20px;
+#contacts li {
+	margin: 0 20px;
 }
-.like{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    text-align: center;
-    color: #828282;
-    margin: 0 0 234px;
+.like {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: center;
+	color: #828282;
+	margin: 0 0 234px;
 }
 #toTop {
-    width:100px;
-    border:1px solid #ccc;
-    background:#f7f7f7;
-    text-align:center;
-    padding:5px;
-    position:fixed;
-    bottom:10px;
-    right:10px;
-    cursor:pointer;
-    display:none;
-    color:#333;
-    font-family:verdana;
-    font-size:16px;
-    font-weight: bold;
-
-    }
-.like a{
-    text-decoration: none;
-    color: #828282;
+	width: 100px;
+	border: 1px solid #ccc;
+	background: #f7f7f7;
+	text-align: center;
+	padding: 5px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+	color: #333;
+	font-family: verdana;
+	font-size: 16px;
+	font-weight: bold;
 }
-h3 a{
-    color: #070707;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    text-decoration-line: underline;
+.like a {
+	text-decoration: none;
+	color: #828282;
+}
+h3 a {
+	color: #070707;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	text-decoration-line: underline;
 }
